@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Moja pierwsza strona z JS</title>
+  <script defer src="script.js"></script>
+</head>
+<body>
+<div class="lucky-number">
+  <form onsubmit="return false;">
+    <label for="userNumber">Podaj liczbę</label>
+    <button type="button" id="minus">-</button>
+    <input type="text" id="userNumber" value="0" readonly />
+    <button type="button" id="plus">+</button>
+  </form>
+  <button type="button" class="btn-11" onclick="play()">Sprawdź, czy wygrałem 🤔 </button>
+  <p id="message"></p>
+</div>
+</body>
+</html>

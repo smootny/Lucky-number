@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lucky-number {
+    height: 200px;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 60px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin: 0 10px;
+    outline: none;
+}
+
+button {
+    padding: 10px 10px;
+
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#minus, button#plus {
+    width: 40px;
+}
+
+button.btn-11 {
+    width: 250px;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+button.btn-11:hover {
+    background-color: #45a049;
+}
+
+p#message {
+    margin-top: 20px;
+    font-size: 16px;
+}
