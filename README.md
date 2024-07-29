@@ -27,3 +27,19 @@ This project is a simple web-based game that challenges users to guess a randoml
 - Enhancing the UI with animations for better user experience.
 - Extending the game to include a range of numbers chosen by the user.
 
+### How to Use
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/moja-pierwsza-strona-z-js.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd moja-pierwsza-strona-z-js
+   ```
+3. **Open `index.html` in a web browser:**
+   ```bash
+   open index.html
+   ```
+
+### Contributions and feedback are welcome!
